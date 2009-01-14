@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "rspec-rails-matchers"
-  s.version  = "1.0.0"
+  s.version  = "1.0.1"
   s.date     = "2009-01-14"
   s.summary  = "Rails-specific matchers for RSpec"
   s.email    = "jim@saturnflyer.com"
@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
   s.test_files = []
   s.rdoc_options = []
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
-  s.add_dependency("rspec-rails", ["> 1.1.12"])
+  s.add_dependency("rspec-rails", [">= 1.1.12"])
 end
